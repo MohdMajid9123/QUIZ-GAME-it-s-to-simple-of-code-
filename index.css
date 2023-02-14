@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* main_container code */
+#main_container {
+  width: 100w;
+  height: 100vh;
+  background-color: #5a5edf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* box div code */
+#box {
+  min-width: 60vw;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+/* box div h3 code */
+#box h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 1rem 0 3rem 0;
+}
+/* box div li code */
+#box ul li {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  list-style: none;
+}
+/* box div li input */
+
+#box ul li input,
+label {
+  cursor: pointer;
+}
+
+/* box under submit and btn code */
+#box #submit,
+#btn {
+  background-color: #5a5edf;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  color: white;
+}
+#box #submit:hover,
+.btn:hover {
+  background-color: #7174de;
+}
+/* last div code */
+.last_div {
+  width: 100%;
+  padding: 2rem;
+  background-color: #af5b5b;
+  margin: 1rem 0 0 0;
+  border-radius: 1rem;
+  display: none;
+}
+.last_div h3 {
+  text-align: center;
+}
+
+/* medai queary section only */
+
+@media screen and (max-width: 576px) {
+  #box h3 {
+    font-size: 1.8rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: 700;
+  }
+  #box ul li {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  #box h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: 700;
+  }
+  #box ul li {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
